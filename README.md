@@ -47,7 +47,7 @@ set OPENAI_API_KEY="your_openai_api_key_here"
 jupyter notebook c2rust_finetuning.ipynb
 
 ```
-
+**[View Technical Presentation Slides](https://docs.google.com/presentation/d/1ziVr2XKvf8_5mRsoxFknIH1vqqTniBltDhnkwTJGYcQ/edit?usp=sharing)**
 The notebook demonstrates the entire ML engineering workflow from data ingestion to model evaluation.
 
 ## Project Structure
@@ -63,6 +63,7 @@ The notebook demonstrates the entire ML engineering workflow from data ingestion
 ├── real_job_info.json # Fine-tuning job details
 └── evaluation_results.json # Model evaluation
 ```
+
 
 ## Technical Implementation
 
@@ -134,7 +135,7 @@ job_config = {
 	]
 }
 ```
-### Qualitative Evaluation
+### 3. Qualitative Evaluation
 
 **Evaluation Metrics:**
 
