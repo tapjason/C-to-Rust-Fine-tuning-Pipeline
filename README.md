@@ -36,19 +36,14 @@ Create a minimal fine-tuning pipeline that:
 ```bash
 
 # 1. Setup
-
 git clone https://github.com/tapjason/C-to-Rust-Fine-tuning-Pipeline.git
-
 cd C-to-Rust-Fine-tuning-Pipeline
-
 pip install -r requirements.txt
 
 # 2. Configure API
-
 set OPENAI_API_KEY="your_openai_api_key_here"
 
 # 3. Run Complete Pipeline
-
 jupyter notebook c2rust_finetuning.ipynb
 
 ```
