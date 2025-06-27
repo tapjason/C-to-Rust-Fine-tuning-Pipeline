@@ -1,0 +1,105 @@
+# API Keys and Credentials
+.env
+*.key
+api_keys.txt
+openai_api_key.txt
+
+# Fine-tuning Outputs
+finetune_outputs/
+o3_fine_tuning_outputs/
+*.jsonl
+real_job_info.json
+evaluation_results.json
+
+# Dataset Files
+data/
+CRUST_bench.zip
+**/CBench/
+**/RBench/
+dataset_cache/
+
+# Model Files
+models/
+checkpoints/
+*.model
+*.checkpoint
+
+# Jupyter Notebook Outputs
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Visualizations (optional - you might want to commit these)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+plots/
+
+# Large Files
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# Compiled Rust (if testing)
+target/
+Cargo.lock
