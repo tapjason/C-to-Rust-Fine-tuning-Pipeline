@@ -48,7 +48,6 @@ jupyter notebook c2rust_finetuning.ipynb
 
 ```
 **[View Technical Presentation Slides](https://docs.google.com/presentation/d/1ziVr2XKvf8_5mRsoxFknIH1vqqTniBltDhnkwTJGYcQ/edit?usp=sharing)**
-The notebook demonstrates the entire ML engineering workflow from data ingestion to model evaluation.
 
 ## Project Structure
 
