@@ -55,7 +55,7 @@ jupyter notebook c2rust_finetuning.ipynb
 
 The notebook demonstrates the entire ML engineering workflow from data ingestion to model evaluation.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── c2rust_finetuning.ipynb # Main pipeline notebook
